@@ -74,3 +74,7 @@ Outras colunas podem existir e serão ignoradas.
 - Colunas e rótulos da interface foram padronizados para português brasileiro.
 - Comentários supérfluos e código não utilizado foram removidos.
 - Apenas gráficos interativos (Plotly) são exibidos na interface.
+
+## Link do DashBoard
+
+[Streamlit dashboard](https://ardrfsxsg3ekcxfun6uizz.streamlit.app/)
