@@ -74,7 +74,6 @@ with st.container():
 with st.container():
     st.subheader("Comparativos de Vendas")
 
-    # Criando duas colunas
     col1, col2 = st.columns(2)
 
     with col1:
@@ -102,8 +101,6 @@ with st.container():
             data_to_plot['Date'] = pd.to_datetime(data_to_plot['Year'].astype(str) + '-01-01')
             x_col = 'Date'
             title = "Vendas Anuais"
-
-        # Plot Plotly
         fig1 = px.line(
             data_to_plot,
             x=x_col,
@@ -392,4 +389,5 @@ Esse aumento nas vendas em Dezembro está relacionado a datas comemorativas e ao
 Os <b>telefones</b> representam cerca de <b>10%</b> das vendas em Dezembro, enquanto no período completo correspondem a <b>14%</b> das vendas.
 </p>
     </p>
+
     """, unsafe_allow_html=True)
